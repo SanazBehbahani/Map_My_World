@@ -50,3 +50,31 @@ As the robot moves around, a local costmap, in relation to the global costmap, k
 
 What makes this package more remarkable is that it has some built-in corrective behaviors or maneuvers. 
 Based on specific conditions, like detecting a particular obstacle or if the robot is stuck, it will navigate the robot around the obstacle or rotate the robot till it finds a clear path ahead.
+
+## Running the Scripts:
+
+Run the commands below in separate terminals:
+
+`roslaunch my_robot world.launch`
+
+`roslaunch my_robot amcl.launch`
+
+`rosrun teleop_twist_keyboard teleop_twist_keyboard.py`
+
+## Usage
+
+![usage](https://user-images.githubusercontent.com/7389485/58052502-d6317b80-7b09-11e9-952c-507c58119510.JPG)
+
+## Results
+
+The robot uses the information from the odometer, the camera and the laser rangefinder to localize itself through the amcl package.
+
+Below, the results of localization are shown in three steps:
+1. At the begining of simulation
+![t0](https://user-images.githubusercontent.com/7389485/58052505-d6317b80-7b09-11e9-9c99-91c7be1fa511.JPG)
+
+2. Right after the robot starts moving 
+![t1](https://user-images.githubusercontent.com/7389485/58052504-d6317b80-7b09-11e9-9187-39b5b0d02995.JPG)
+
+3. A short time into simulation. Here the robot has successfully localized itself accurately.
+![t2](https://user-images.githubusercontent.com/7389485/58052503-d6317b80-7b09-11e9-9ecb-3d36729d5bb5.JPG)
