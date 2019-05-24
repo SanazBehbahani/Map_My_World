@@ -25,3 +25,13 @@ According to the documentation, the recommended robot configuration requires:
 - 3D Camera, compatible with openni_launch, openni2_launch or freenect_launch ROS packages
 
 I use a simulated Kinect camera for RTAB-Map.
+
+ ## Visualization
+ 
+ Example of database visualized through RTAB-Map's database viewer.
+ 
+ ![Capture](https://user-images.githubusercontent.com/7389485/58361084-0e55f880-7e41-11e9-8a93-9a918ffcba7e.JPG)
+
+## Link to Rtabmap database in my Google Drive 
+
+https://drive.google.com/open?id=1KvL0CzVFU8shR1xh9HuEGlmED5dxrq9p
