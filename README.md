@@ -15,3 +15,13 @@ Changes are made to interface it with RTAB-Map (e.g. adding an RGB-D camera).
 Furthermore, the appropriate launch files are created to launch the robot and map its surrounding environment.
 
 4. After launching the robot, teleop around the room to generate a proper map of the environment.
+
+## RTAB-Map Pacakge
+
+According to the documentation, the recommended robot configuration requires:
+
+- A 2D Laser, providing sensor_msgs/LaserScan messages
+- Odometry sensors, providing nav_msgs/Odometry messages
+- 3D Camera, compatible with openni_launch, openni2_launch or freenect_launch ROS packages
+
+I use a simulated Kinect camera for RTAB-Map.
